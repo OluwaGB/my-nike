@@ -1,0 +1,178 @@
+.App {
+  display:flex;
+  text-align: center;
+  place-content: center;
+  place-items: center;
+  /*padding:3rem;*/
+  ;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/*section,#flex,nav,.flex{
+  display:flex;
+
+}
+#imgs{
+  border-radius:12px;
+  width: 20%;
+  margin:20px;
+}
+nav{
+  margin:15px;
+}
+.img{
+ 
+}
+#logo{}
+.Texts{
+  place-items: left;
+  text-align: left;
+}*/
+nav{
+  display:flex;
+}
+#a{
+  margin-right:100px;
+}
+nav a{
+  margin:20px 100px 0px 10px;
+
+
+}
+#flexs{
+  display:flex;
+}
+#div{
+  background-color: white;
+  margin-left:-55px;
+  z-index: 1;
+}
+nav a:hover{
+  color:white;
+}
+a:hover{
+  color:rgb(228, 73, 228);
+}
+#logos{
+  width:20%;
+  
+}
+#sct1{
+  text-align: left;
+  place-content: left;
+  padding: 60px;
+  width:100%;
+}
+h3{
+  color:orangered;
+  font-family: verdana;font-size: 14px;
+  font-weight: 300;
+}
+h1{font-size: 36px;
+  line-height: 39.6px;
+  font-family: verdana;
+}
+P{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:#282c34
+}
+#btn{
+  margin-left:30px;
+}
+#logo{
+  width:50%;
+  height: 80%;
+  place-items:center;
+  text-align: center;
+  place-content: center;
+  
+}
+#imgs{
+  width:20%;
+  border-radius:12px;
+  outline:1px solid orangered;
+}
+.img{
+ place-content: right;
+  place-items: center;
+  text-align: center;
+  
+  padding:20px;
+  background-color: rgb(241, 130, 241);
+}
+#flex{
+  display:flex;
+  margin:20px;
+  place-items: center;
+  place-content: center;
+  text-align: center;
+  
+}
+.flex{
+  
+}
+.counter{
+  margin:10px;
+}
+italics{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:black;
+  font-size: 36px;
+  font-weight: 600;
+}
+nav a{
+  text-decoration: none;
+  color:black;
+  font-family: verdana;
+}
+#imgs{
+  margin:20px;
+}
+nav{display: flex;}
+.flex{
+  display:flex;
+
+}
+button{
+  padding:10px;
+  background-color:orange;
+  border:none;
+  color:white;
+  margin-bottom:15px;
+  border-radius:10px;
+  width:20%;
+}
