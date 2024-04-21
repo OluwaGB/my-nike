@@ -69,7 +69,7 @@ nav{
   margin-right:100px;
 }
 nav a{
-  margin:20px 100px 0px 10px;
+  margin:30px 100px 0px 10px;
 
 
 }
@@ -169,10 +169,32 @@ nav{display: flex;}
 }
 button{
   padding:10px;
-  background-color:orange;
+  background-color:#FF4542;
   border:none;
   color:white;
   margin-bottom:15px;
   border-radius:10px;
   width:20%;
+}
+@media  screen and(max-width:780px) {
+.App{display:grid;
+  place-content:center;
+  text-align:center;
+  place-items:center;}
+sct1{display: grid;
+text-align: center;
+place-content: center;
+place-items: center;}
+.img{
+  display: grid;
+text-align: center;
+place-content: center;
+place-items: center;
+}
+}
+strong{
+  color:#FF4542;
+}
+#logo{
+  margin:50px;
 }

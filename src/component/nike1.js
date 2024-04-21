@@ -16,7 +16,7 @@ const Sections = () =>{
         <div id="sct1">
         <div id="Texts">
             <h3>Our summer collections</h3>
-          <div id="flexs"><h1>The New Arrival <br/><strong>Nike</strong>Shoes</h1><div id="div"></div></div>
+          <div id="flexs"><h1>The New Arrival <br/><strong> Nike </strong>Shoes</h1><div id="div"></div></div>
             <p>Discover stylish Nike arrivals quality<br/>
             comfort,and innovation for your active life</p>
             <button>Shop now</button></div>
